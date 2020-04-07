@@ -43,7 +43,6 @@ namespace dongwon_project
             if (conn == null)
             {
                 //서버명, 초기 DB명, 인증 방법
-                //DBConnString = String.Format("server={0};database={1};user id={2};password={3}", "203.247.57.82", "Dongwon", "dllwlstjs1", "asd753951");
                 DBConnString = String.Format("server={0};database={1};user id={2};password={3}", "203.247.57.156", "Dongwon", "dllwlstjs1", "asd753951");
 
                 conn = new SqlConnection(DBConnString);
